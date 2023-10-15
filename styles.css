@@ -1,0 +1,85 @@
+a {
+  color: #FAD71D
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  font-family: Georgia, serif;
+}
+
+.TyProstokT {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+  .ObrazUCiskuDOni {
+    margin-top: 1rem;
+  }
+
+  .AbyOtzymaMai {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .AbyOtzymaMai {
+    margin-bottom: 3rem;
+  }
+
+  .ObrazUCiskuDOni {
+    margin-top: 150px;
+  }
+
+  .SekcjaKontakt {
+    margin: 50px 0 150px;
+  }
+
+
+  .Kontakt {
+    margin: 50px 0 120px;
+  }
+
+  .Frame48, .Frame49, .Frame51, .Frame52, .Frame54, .Frame55 {
+    display: block !important;
+    justify-content: center;
+  }
+
+  .Frame50 {
+    gap: 0 !important;
+  }
+
+  .AdresKancelarii, .FbKancelarii, .TelKancelarii, .MailKancelarii {
+    margin: 1rem 0;
+    width: 100% !important;
+  }
+
+  .PrzygotowanieDokumentW, .ZapewnieniePomocy, .DarmowAnalize, .DokonaniePrzeliczenia, .BaseMailUnpacking, .BasePhoneTelephone {
+    display: block !important;
+    margin: 1rem 0;
+  }
+
+  .ObniEnieSalda, .ZwrocieNadpAconych, .WykreLeniuHipoteki, .ZamkniCiuKredytu, .OgraniczeniuRyzyka {
+    flex-direction: row!important;
+    margin: 1rem 0;
+    width: 100% !important;
+  }
+
+  .Frame4, .Frame5, .Frame2, .Frame3 {
+    margin: 1rem auto;
+  }
+
+  .PoPrzygotowaniu {
+    margin-top: 240px;
+  }
+
+  .Komputer {
+    width: auto!important;
+  }
+
+  .Stopka {
+    margin-top: 6rem;
+  }
+}
