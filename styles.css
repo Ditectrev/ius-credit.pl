@@ -44,6 +44,8 @@ div {
 
   .Frame48, .Frame49, .Frame51, .Frame52, .Frame54, .Frame55 {
     display: block !important;
+    font-size: 24px;
+    font-family: Red Hat Display !important;
     justify-content: center;
   }
 
@@ -67,18 +69,29 @@ div {
   }
 
   .ObniEnieSalda, .ZwrocieNadpAconych, .ZamkniCiuKredytu {
+    font-size: 24px;
+    font-family: Red Hat Display !important;
     margin: 1rem 0;
     width: 100% !important;
   }
 
   .WykreLeniuHipoteki {
+    font-size: 24px;
+    font-family: Red Hat Display !important;
     margin: 0 0 1rem;
     width: 100% !important;
   }
 
   .OgraniczeniuRyzyka {
+    font-size: 24px;
+    font-family: Red Hat Display !important;
     margin: -1rem 0 0;
     width: 100% !important;
+  }
+
+  .ObrazUCiskuDOni, .SekcjaPomoEmy, .Frame53 {
+    font-size: 24px;
+    font-family: Red Hat Display !important;
   }
 
   .Frame4, .Frame5, .Frame2, .Frame3 {
