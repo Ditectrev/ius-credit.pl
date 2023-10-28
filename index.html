@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather" rel="stylesheet">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -121,7 +121,7 @@
                 </svg>
 
                 <div class="WykreLeniuHipotekiZNieruchomoCi"
-                  style="align-self: stretch; text-align: center; color: #F8F5E6; font-size: 24px; font-family: Red Hat Display; font-weight: 600; word-wrap: break-word">
+                  style="text-align: center; color: #F8F5E6; font-size: 24px; font-family: Red Hat Display; font-weight: 600; word-wrap: break-word">
                   Wykreśleniu hipoteki z nieruchomości </div>
               </div>
               <div class="ZamkniCiuKredytu"
@@ -133,7 +133,7 @@
                 </svg>
 
                 <div class="ZamkniCiuKredytuWPrzypadkuJegoUniewaNiena"
-                  style="align-self: stretch; text-align: center; color: #F8F5E6; font-size: 24px; font-family: Red Hat Display; font-weight: 600; word-wrap: break-word">
+                  style="text-align: center; color: #F8F5E6; font-size: 24px; font-family: Red Hat Display; font-weight: 600; word-wrap: break-word">
                   Zamknięciu kredytu w przypadku jego unieważniena</div>
               </div>
             </div>
@@ -422,7 +422,12 @@
       style="align-self: stretch; height: 59px; padding-top: 35px; padding-bottom: 8px; background: #1A1A1A; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
       <div class="IusCreditWszelkiePrawaZastrzeOne"
         style="align-self: stretch; text-align: center; color: rgba(248, 245, 230, 0.30); font-size: 12px; font-family: Red Hat Display; font-weight: 600; word-wrap: break-word">
-        © IUS CREDIT Wszelkie prawa zastrzeżone</div>
+        © <span id="date"></span> IUS CREDIT. Wszelkie prawa zastrzeżone.</div>
     </div>
   </div>
 </body>
+
+<script>
+  const year = new Date().getFullYear();
+  document.getElementById("date").innerHTML = year;
+</script>

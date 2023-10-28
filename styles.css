@@ -7,7 +7,7 @@ body {
 }
 
 div {
-  font-family: Georgia, serif;
+  font-family: 'Merriweather', serif;
 }
 
 .TyProstokT {
@@ -75,7 +75,7 @@ div {
     width: 100% !important;
   }
 
-  .WykreLeniuHipoteki {
+  .WykreLeniuHipoteki, .ZamkniCiuKredytuWPrzypadkuJegoUniewaNiena {
     font-size: 24px;
     font-family: Red Hat Display !important;
     margin: 0 0 1rem;
